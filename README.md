@@ -20,6 +20,10 @@ Just drop it in your Packages folder.
 - Mac: `~/Library/Application Support/Sublime Text 2/Data/Packages/`
 - Linux: `~/.config/Sublime Text 2/Data/Packages/` -- (Might differ by distro.)
 
+## Recommendation
+
+[Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro) font. It looks sweet in with these colors.
+
 ### Change your Settings - User 
 
     {
