@@ -694,28 +694,28 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [210, 210, 210, 255],
-        "match_fg": [185, 226, 62, 255],
-        "bg": [41, 41, 41, 255],
+        "fg": [172, 206, 203, 255],
+        "match_fg": [255, 129, 92, 255],
+        "bg": [0, 0, 0, 255],
         "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [165, 201, 56, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "selected_match_fg": [255, 129, 92, 255],
+        "selected_bg": [0, 0, 0, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [130, 130, 130, 255],
-        "match_fg": [220, 220, 220, 255],
-        "bg": [41, 41, 41, 255],
-        "selected_fg": [175, 175, 175, 255],
-        "selected_match_fg": [220, 220, 220, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "match_fg": [176, 80, 49, 255],
+        "bg": [0, 0, 0, 255],
+        "selected_fg": [172, 206, 203, 255],
+        "selected_match_fg": [255, 255, 219, 255],
+        "selected_bg": [0, 0, 0, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [184, 224, 63, 255],
-        "bg": [41, 41, 41, 255],
-        "selected_fg": [184, 224, 63, 255],
-        "selected_bg": [24, 24, 24, 255]
+        "fg": [255, 255, 219, 255],
+        "bg": [0, 0, 0, 255],
+        "selected_fg": [255, 129, 92, 255],
+        "selected_bg": [0, 0, 0, 255]
     },
 
 //
