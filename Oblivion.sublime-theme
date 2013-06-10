@@ -13,7 +13,7 @@
         "content_margin": [-3, 0, -3, 0],
         "tab_overlap": 5,
         "tab_width": 180,
-        "tab_min_width": 180,
+        "tab_min_width": 20,
         "tab_height": 36,
         "mouse_wheel_switch": false
     },
