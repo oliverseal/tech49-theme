@@ -1,0 +1,46 @@
+attribute:
+    #fcffc7
+character:
+    #fc674e
+comment:
+    #263f45
+comment.doc:
+    #396269
+comment.doc.keyword:
+    #5997a3
+identifier.class:
+    #c4fefd
+identifier.class.system:
+    #c401fd
+identifier.constant:
+    #79815d
+identifier.constant.system:
+    #8b9474
+identifier.function:
+    #77c9d9
+identifier.function.system:
+    #60c6d8
+identifier.macro:
+    #fab29f
+identifier.macro.system:
+    #8a291b
+identifier.type:
+    #c5d49c
+identifier.type.system:
+    #c5cf8d
+identifier.variable:
+    #9dc3bf
+identifier.variable.system:
+    #9dc3bf
+keyword:
+    #d1fefc
+number:
+    #fc674e
+plain:
+    #9dc3bf
+preprocessor:
+    #d1fefc
+string:
+    #8b9474
+url:
+    #b3bd93

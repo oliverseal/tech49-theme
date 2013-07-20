@@ -1,0 +1,39 @@
+<gconfentryfile>
+  <entrylist base="/apps/gnome-terminal">
+    <entry>
+      <key>profiles/Default/font</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/font</schema_key>
+      <value>
+        <string>Anonymous Pro 10</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Default/foreground_color</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/foreground_color</schema_key>
+      <value>
+        <string>#9D9DC3C3BFBF</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Default/palette</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/palette</schema_key>
+      <value>
+        <string>#26263F3F4545:#8A8A29281B1A:#797981815D5D:#C5C5CFCF8D8D:#9D9DC3C3BFBF:#C4C40100FDFD:#6060C6C5D8D8:#D1D1FEFEFCFC:#393962626969:#FCFC67674E4E:#B3B3BDBD9393:#FCFCFFFFC7C7:#C4C4FEFEFDFD:#ADAD7F7FA8A8:#7776C9C8D9D9:#F650F776E204</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Default/use_system_font</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/use_system_font</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+    <entry>
+      <key>profiles/Default/use_theme_colors</key>
+      <schema_key>/schemas/apps/gnome-terminal/profiles/Default/use_theme_colors</schema_key>
+      <value>
+        <bool>false</bool>
+      </value>
+    </entry>
+  </entrylist>
+</gconfentryfile>
