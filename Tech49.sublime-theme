@@ -7,7 +7,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/tabset-background.png",
+        "layer0.texture": "Theme - Tech49/Tech49/tabset-background.png",
         "layer0.inner_margin": [1, 6],
         "layer0.opacity": 1.0,
         "content_margin": [-3, 0, -3, 0],
@@ -27,7 +27,7 @@
         "content_margin": [12, 3, 12, 3],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-inactive.png",
+        "layer0.texture": "Theme - Tech49/Tech49/tab-inactive.png",
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
@@ -41,13 +41,13 @@
     {
         "class": "tab_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-hover.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-hover.png"
     },
     // Tab active state
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-active.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-active.png"
     },
     // Tab dirty state (close button hidden)
     {
@@ -67,7 +67,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-close-inactive.png",
+        "layer0.texture": "Theme - Tech49/Tech49/tab-close-inactive.png",
         "layer0.opacity": 0.6,
         "layer0.inner_margin": 0
     },
@@ -79,20 +79,20 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-close.png",
+        "layer0.texture": "Theme - Tech49/Tech49/tab-close.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-close.png",
+        "layer0.texture": "Theme - Tech49/Tech49/tab-close.png",
         "layer0.opacity": 1.0
     },
     // Tab dirty button
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-dirty-inactive.png",
+        "layer0.texture": "Theme - Tech49/Tech49/tab-dirty-inactive.png",
         "layer0.opacity": 0.85
     },
     {
@@ -109,34 +109,34 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-dirty.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-dirty.png"
     },
     // Tab highlight button
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-highlight-inactive.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-highlight.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-highlight.png"
     },
     // Tab close button hover
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-close-hover.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-close-hover.png"
     },
     // Tab close button pressed
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-close-pressed.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-close-pressed.png"
     },
 
 //
@@ -175,7 +175,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/fold-closed.png",
+        "layer0.texture": "Theme - Tech49/Tech49/fold-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -183,17 +183,17 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/fold-closed-hover.png"
+        "layer0.texture": "Theme - Tech49/Tech49/fold-closed-hover.png"
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/fold-open.png"
+        "layer0.texture": "Theme - Tech49/Tech49/fold-open.png"
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded", "hover"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/fold-open-hover.png"
+        "layer0.texture": "Theme - Tech49/Tech49/fold-open-hover.png"
     },
 
 //
@@ -203,7 +203,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/standard-scrollbar-vertical.png",
+        "layer0.texture": "Theme - Tech49/Tech49/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 6],
         "blur": false
@@ -212,21 +212,21 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/standard-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - Tech49/Tech49/standard-scrollbar-horizontal.png",
         "layer0.inner_margin": [6, 2],
         "blur": false
     },
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/standard-scrollbar-corner.png",
+        "layer0.texture": "Theme - Tech49/Tech49/standard-scrollbar-corner.png",
         "layer0.inner_margin": [2, 2],
         "layer0.opacity": 1.0
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/standard-puck-vertical.png",
+        "layer0.texture": "Theme - Tech49/Tech49/standard-puck-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -236,7 +236,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/standard-puck-horizontal.png",
+        "layer0.texture": "Theme - Tech49/Tech49/standard-puck-horizontal.png",
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
         "blur": false
@@ -261,7 +261,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/overlay-scrollbar-vertical.png",
+        "layer0.texture": "Theme - Tech49/Tech49/overlay-scrollbar-vertical.png",
         "layer0.inner_margin": [0, 5],
         "blur": true
     },
@@ -270,7 +270,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/overlay-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - Tech49/Tech49/overlay-scrollbar-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "blur": true
     },
@@ -278,7 +278,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/overlay-puck-vertical.png",
+        "layer0.texture": "Theme - Tech49/Tech49/overlay-puck-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -288,7 +288,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/overlay-puck-horizontal.png",
+        "layer0.texture": "Theme - Tech49/Tech49/overlay-puck-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
@@ -298,14 +298,14 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/overlay-dark-puck-vertical.png"
+        "layer0.texture": "Theme - Tech49/Tech49/overlay-dark-puck-vertical.png"
     },
     // Overlay light horizontal puck (for dark content)
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/overlay-dark-puck-horizontal.png"
+        "layer0.texture": "Theme - Tech49/Tech49/overlay-dark-puck-horizontal.png"
     },
 
 //
@@ -368,7 +368,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/tooltip.png",
+        "layer0.texture": "Theme - Tech49/Tech49/tooltip.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.9,
         "content_margin": [3, 3]
@@ -386,7 +386,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "Theme - Oblivion/Oblivion/status-bar-background.png",
+        "layer0.texture": "Theme - Tech49/Tech49/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 4, 8, 4]
@@ -412,7 +412,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.texture": "Theme - Oblivion/Oblivion/sidebar-bg.png",
+        "layer0.texture": "Theme - Tech49/Tech49/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
         "content_margin": [0, 0, 1, 0]
@@ -428,33 +428,33 @@
     },
     {
         "class": "sidebar_tree",
-        "settings": ["phoenix_sidebar_tree_xsmall"],
+        "settings": ["tech49_sidebar_tree_xsmall"],
         "row_padding": [8, 0]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["phoenix_sidebar_tree_small"],
+        "settings": ["tech49_sidebar_tree_small"],
         "row_padding": [8, 2]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["phoenix_sidebar_tree_medium"],
+        "settings": ["tech49_sidebar_tree_medium"],
         "row_padding": [8, 3]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["phoenix_sidebar_tree_large"],
+        "settings": ["tech49_sidebar_tree_large"],
         "row_padding": [8, 6]
     },
     {
         "class": "sidebar_tree",
-        "settings": ["phoenix_sidebar_tree_xlarge"],
+        "settings": ["tech49_sidebar_tree_xlarge"],
         "row_padding": [8, 8]
     },
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Oblivion/Oblivion/sidebar-row-selected.png",
+        "layer0.texture": "Theme - Tech49/Tech49/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -481,12 +481,12 @@
     },
     {
         "class": "sidebar_label",
-        "settings": ["phoenix_sidebar_font_large"],
+        "settings": ["tech49_sidebar_font_large"],
         "font.size": 12.0
     },
     {
         "class": "sidebar_label",
-        "settings": ["phoenix_sidebar_font_xlarge"],
+        "settings": ["tech49_sidebar_font_xlarge"],
         "font.size": 14.0
     },
     // Sidebar folder entry
@@ -527,7 +527,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-close.png",
+        "layer0.texture": "Theme - Tech49/Tech49/file-close.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -541,31 +541,31 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-dirty.png",
+        "layer0.texture": "Theme - Tech49/Tech49/file-dirty.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-dirty-selected.png"
+        "layer0.texture": "Theme - Tech49/Tech49/file-dirty-selected.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-close.png"
+        "layer0.texture": "Theme - Tech49/Tech49/file-close.png"
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-close-hover.png"
+        "layer0.texture": "Theme - Tech49/Tech49/file-close-hover.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-close-selected.png"
+        "layer0.texture": "Theme - Tech49/Tech49/file-close-selected.png"
     },
 
 //
@@ -576,40 +576,40 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Oblivion/Oblivion/group-closed.png",
+        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
         "layer0.opacity": 0.4
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/group-closed.png",
+        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
         "layer0.opacity": 0.8
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/group-closed.png",
+        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
         "layer0.opacity": 1.0
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/group-open.png",
+        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/group-open.png",
+        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/group-open.png",
+        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
         "layer0.opacity": 1.0
     },
 
@@ -622,7 +622,7 @@
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-large.png",
+        "layer0.texture": "Theme - Tech49/Tech49/btn-large.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6]
     },
@@ -630,7 +630,7 @@
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-large-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-large-on.png"
     },
 
 //
@@ -640,7 +640,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/text-field.png",
+        "layer0.texture": "Theme - Tech49/Tech49/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
         "content_margin": [3, 3]
@@ -653,7 +653,7 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/panel-background.png",
+        "layer0.texture": "Theme - Tech49/Tech49/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "content_margin": [2, 1, 2, 1]
@@ -661,10 +661,10 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/quick-panel-background.png",
+        "layer0.texture": "Theme - Tech49/Tech49/quick-panel-background.png",
         "layer0.inner_margin": [12, 6, 12, 15],
         "layer0.opacity": 1.0,
-        "layer1.texture": "Theme - Oblivion/Oblivion/quick-panel-sections.png",
+        "layer1.texture": "Theme - Tech49/Tech49/quick-panel-sections.png",
         "layer1.inner_margin": [12, 40, 12, 19],
         "layer1.opacity": 1.0,
         "content_margin": [11, 8, 11, 17]
@@ -683,14 +683,14 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "Theme - Oblivion/Oblivion/quick-panel-row.png",
+        "layer0.texture": "Theme - Tech49/Tech49/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - Tech49/Tech49/quick-panel-row-selected.png"
     },
     {
         "class": "quick_panel_label",
@@ -724,14 +724,14 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "Theme - Oblivion/Oblivion/quick-panel-row.png",
+        "layer0.texture": "Theme - Tech49/Tech49/quick-panel-row.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/quick-panel-row-selected.png"
+        "layer0.texture": "Theme - Tech49/Tech49/quick-panel-row-selected.png"
     },
 
 //
@@ -757,7 +757,7 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "Theme - Oblivion/Oblivion/autocomplete-row-selected.png",
+        "layer0.texture": "Theme - Tech49/Tech49/autocomplete-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [3, 1]
     },
@@ -774,7 +774,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-middle.png",
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [3, 3]
@@ -782,43 +782,43 @@
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-middle-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-middle-on.png"
     },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-left.png",
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-left.png",
         "content_margin": [4, 3, 3, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-left-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-left-on.png"
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-right.png",
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-right.png",
         "content_margin": [3, 3, 4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-right-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-right-on.png"
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-small.png",
+        "layer0.texture": "Theme - Tech49/Tech49/btn-small.png",
         "content_margin": [4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-small-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-small-on.png"
     },
 
 //
@@ -828,38 +828,38 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-regex-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-regex-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-regex-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-regex-on.png"
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-case-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-case-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-case-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-case-on.png"
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-word-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-word-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-word-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-word-on.png"
     },
 
 //
@@ -869,26 +869,26 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-context-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-context-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-context-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-context-on.png"
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-buffer-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-buffer-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-buffer-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-buffer-on.png"
     },
 
 //
@@ -898,38 +898,38 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-reverse-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-reverse-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-reverse-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-reverse-on.png"
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-wrap-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-wrap-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-wrap-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-wrap-on.png"
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-selection-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-selection-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-selection-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-selection-on.png"
     },
 
 //
@@ -939,14 +939,14 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-preserve-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-preserve-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-preserve-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-preserve-on.png"
     },
 
 //
@@ -956,14 +956,14 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-highlight-off.png",
+        "layer0.texture": "Theme - Tech49/Tech49/icon-highlight-off.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/icon-highlight-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/icon-highlight-on.png"
     },
 
 
@@ -975,32 +975,32 @@
     // Tab set
     {
         "class": "tabset_control",
-        "settings": ["phoenix_tabs_auto_width"],
+        "settings": ["tech49_tabs_auto_width"],
         "tab_width": 0
     },
     {
         "class": "tabset_control",
-        "settings": ["phoenix_tabs_small"],
+        "settings": ["tech49_tabs_small"],
         "tab_height": 26
     },
     {
         "class": "tabset_control",
-        "settings": ["phoenix_tabs_medium"],
+        "settings": ["tech49_tabs_medium"],
         "tab_height": 30
     },
     {
         "class": "tabset_control",
-        "settings": ["phoenix_tabs_normal"],
+        "settings": ["tech49_tabs_normal"],
         "tab_height": 36
     },
     {
         "class": "tabset_control",
-        "settings": ["phoenix_tabs_large"],
+        "settings": ["tech49_tabs_large"],
         "tab_height": 45
     },
     {
         "class": "tabset_control",
-        "settings": ["phoenix_tabs_xlarge"],
+        "settings": ["tech49_tabs_xlarge"],
         "tab_height": 60
     },
 
@@ -1013,7 +1013,7 @@
 //
 
     {
-        "settings": ["phoenix_blur_current_tab"],
+        "settings": ["tech49_blur_current_tab"],
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.inner_margin": [4, 4]
@@ -1026,12 +1026,12 @@
     {
         "class": "tab_control",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-inactive-dirty.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-inactive-dirty.png"
     },
     {
         "class": "tab_control",
         "attributes": ["dirty", "hover"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-hover-dirty.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-hover-dirty.png"
     },
 
 
@@ -1040,29 +1040,29 @@
 //
     {
         "class": "tab_control",
-        "settings": ["phoenix_solid_current_tab"],
+        "settings": ["tech49_solid_current_tab"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-active-solid.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-active-solid.png"
     },
     {
         "class": "tab_label",
-        "settings": ["phoenix_solid_current_tab"],
+        "settings": ["tech49_solid_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [255, 255, 255],
         "shadow_color": [35, 35, 35]
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_solid_current_tab"],
+        "settings": ["tech49_solid_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-close-selected.png",
+        "layer0.texture": "Theme - Tech49/Tech49/file-close-selected.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_solid_current_tab"],
+        "settings": ["tech49_solid_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-dirty-selected.png",
+        "layer0.texture": "Theme - Tech49/Tech49/file-dirty-selected.png",
         "layer0.opacity": 1.0
     },
 
@@ -1072,60 +1072,60 @@
     // TABS
     {
         "class": "tab_control",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-active.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-active.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_oblivion", "phoenix_solid_current_tab"],
+        "settings": ["tech49_color", "tech49_solid_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-close-selected.png",
+        "layer0.texture": "Theme - Tech49/Tech49/file-close-selected.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_oblivion", "phoenix_solid_current_tab"],
+        "settings": ["tech49_color", "tech49_solid_current_tab"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-dirty-selected.png",
+        "layer0.texture": "Theme - Tech49/Tech49/file-dirty-selected.png",
         "layer0.opacity": 1.0
     },
     // Tabs highlight
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_oblivion", "!phoenix_dirty_bottom_bar"],
+        "settings": ["tech49_color", "!tech49_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-highlight-inactive.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-highlight-inactive.png"
     },
     {
         "class": "tab_close_button",
-        "settings": ["phoenix_color_oblivion", "!phoenix_dirty_bottom_bar"],
+        "settings": ["tech49_color", "!tech49_dirty_bottom_bar"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/tab-highlight.png"
+        "layer0.texture": "Theme - Tech49/Tech49/tab-highlight.png"
     },
     // SIDEBAR
     {
         "class": "close_button",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Oblivion/Oblivion/file-dirty-selected.png"
+        "layer0.texture": "Theme - Tech49/Tech49/file-dirty-selected.png"
     },
     {
         "class": "tree_row",
-        "settings": ["phoenix_color_oblivion"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/sidebar-row-selected.png"
+        "settings": ["tech49_color"],
+        "layer0.texture": "Theme - Tech49/Tech49/sidebar-row-selected.png"
     },
     {
         "class": "disclosure_button_control",
-        "settings": ["phoenix_color_oblivion", "phoenix_color_expanded_folder"],
+        "settings": ["tech49_color", "tech49_color_expanded_folder"],
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/group-open.png",
+        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
         "layer0.opacity": 0.7
     },
     {
         "class": "sidebar_label",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [100, 178, 219],
         "shadow_color": [31, 58, 72],
@@ -1134,51 +1134,51 @@
     // QUICK PANEL
     {
         "class": "quick_panel_label",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "match_fg": [113, 203, 244, 255],
         "selected_match_fg": [151, 232, 249, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "fg": [113, 203, 244, 255],
         "selected_fg": [151, 232, 249, 255]
     },
     // BOTTOM PANEL BUTTONS
     {
         "class": "icon_button_control",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-middle-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-middle-on.png"
     },
     {
         "class": "icon_button_control",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-left-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-left-on.png"
     },
     {
         "class": "icon_button_control",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-group-right-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-group-right-on.png"
     },
     {
         "class": "icon_button_control",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - Oblivion/Oblivion/btn-small-on.png"
+        "layer0.texture": "Theme - Tech49/Tech49/btn-small-on.png"
     },
     // CODE COMPLETION DROPDOWN
     {
         "class": "auto_complete_label",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "match_fg": [113, 203, 244]
     },
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "settings": ["phoenix_color_oblivion"],
+        "settings": ["tech49_color"],
         "color": [100, 178, 219]
     }
 

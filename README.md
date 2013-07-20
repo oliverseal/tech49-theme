@@ -1,16 +1,18 @@
-# Oblivion Theme
+# Tech49 Theme
 
 Custom UI theme for Sublime Text 2 based on the Oblivion FUI from [GMUNK](http://work.gmunk.com/OBLIVION-GFX)
 
+The structure for this is very closely based on the ![Phoenix Theme](https://github.com/netatoo/phoenix-theme) which is based off of ![Soda Dark](https://github.com/buymeasoda/soda-theme).
+
 ## Samples
 
-![Markdown](http://oliverseal.github.io/oblivion-sublime-theme/screenshots/markdown.png)
+![Markdown](http://oliverseal.github.io/tech49-theme/screenshots/markdown.png)
 
-![CoffeeScript](http://oliverseal.github.io/oblivion-sublime-theme/screenshots/coffeescript.png)
+![CoffeeScript](http://oliverseal.github.io/tech49-theme/screenshots/coffeescript.png)
 
-![Less CSS](http://oliverseal.github.io/oblivion-sublime-theme/screenshots/less.png)
+![Less CSS](http://oliverseal.github.io/tech49-theme/screenshots/less.png)
 
-![HTML](http://oliverseal.github.io/oblivion-sublime-theme/screenshots/html.png)
+![HTML](http://oliverseal.github.io/tech49-theme/screenshots/html.png)
 
 
 ## Installation
@@ -18,7 +20,7 @@ Custom UI theme for Sublime Text 2 based on the Oblivion FUI from [GMUNK](http:/
 Just drop it in your Packages folder. 
 - Windows: `C:\Program Files\Sublime Text 2\Data\Packages\`
 - Mac: `~/Library/Application Support/Sublime Text 2/Data/Packages/`
-- Linux: `~/.config/Sublime Text 2/Data/Packages/` -- (Might differ by distro.)
+- Linux: `~/.config/sublime-text-2/Data/Packages/` -- (Might differ by distro.)
 
 ## Recommendation
 
@@ -27,11 +29,11 @@ Just drop it in your Packages folder.
 ### Change your Settings - User 
 
     {
-        "theme": "Oblivion.sublime-theme"
+        "theme": "Tech49.sublime-theme"
     }
 
 ### Change your Color Scheme
 
     {
-        "color_scheme": "Packages/Theme - Oblivion/Oblivion.tmTheme"
+        "color_scheme": "Packages/Theme - Tech49/Tech49.tmTheme"
     }
