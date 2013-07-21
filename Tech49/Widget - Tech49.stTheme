@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Ian Hill</string>
-	<key>author</key>
-	<string>Oliver Wilkerson</string>
+	<string>Ian Hill,Simon Martins,Oliver Wilkerson</string>
 	<key>comment</key>
 	<string>A widget theme for the UI components of the Soda Dark theme.</string>
 	<key>name</key>
