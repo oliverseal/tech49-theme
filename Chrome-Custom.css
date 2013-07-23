@@ -1,0 +1,393 @@
+
+
+/**********************************************/
+/*
+/* Darker Skin by Darcy Clarke - 2011
+/* http://darcyclarke.me/design/skin-your-chrome-inspector/
+/* Based on Joe Bergantine's Specials Board:
+/* http://joebergantine.com/werkstatt/seestyle
+/* Tweaked by Matthew Lein
+/* Further tweaked by Clayton Farr
+/*
+/**********************************************/
+
+/**********************************************/
+/* Layout
+/**********************************************/
+
+#-webkit-web-inspector #elements-content.source-code {
+  background: #000000;
+  font-size: 12px !important;
+  color: #accecb;
+}
+
+#-webkit-web-inspector #elements-content .highlight {
+  color: #3e4e55;
+}
+
+#-webkit-web-inspector #elements-content .selection {
+
+}
+
+#-webkit-web-inspector #elements-content .selection.selected {
+
+}
+
+#-webkit-web-inspector #elements-content .parent {
+
+}
+
+/*.outline-disclosure ol:focus li.parent.expanded.selected::before*/
+#-webkit-web-inspector #elements-content .outline-disclosure li.parent::before,
+#-webkit-web-inspector #elements-content .outline-disclosure ol:focus li.parent.expanded.selected::before {
+  content: '' !important;
+}
+
+#-webkit-web-inspector #elements-content .selected {
+  background: rgba(255,255,255,0.15);
+}
+
+#-webkit-web-inspector #elements-content .parent.expanded {
+    
+}
+
+#-webkit-web-inspector #elements-content .parent.selected {
+    
+}
+
+/**********************************************/
+/* HTML
+/**********************************************/
+
+#-webkit-web-inspector #elements-content .webkit-html-comment {
+  color: #3f5459 !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-doctype {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-tag {
+  color: #ff815c !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-tag-name {
+        
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-attribute {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-attribute-name {
+  color: #fefedb !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-attribute-value {
+  color: #9ea485 !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-external-link {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-resource-link {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-text-tag {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-text-node {
+  color: #accecb !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-css-node {
+  color: #c2c3c3 !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-html-js-node {
+  color: #c2c3c3 !important;
+}
+
+/**********************************************/
+/* CSS
+/**********************************************/
+
+#-webkit-web-inspector #elements-content .webkit-css-comment {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-url {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-color {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-selector {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-property {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-number {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-keyword {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-string {
+
+}
+
+#-webkit-web-inspector #elements-content .webkit-css-important {
+
+}
+
+/**********************************************/
+/* JavaScript
+/**********************************************/
+
+#-webkit-web-inspector #elements-content .webkit-javascript-comment {
+	color: #3f5459 !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-javascript-keyword {
+  color: #76cddc !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-javascript-ident {
+  color: #fefedb !important;
+  font-weight: normal !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-javascript-string {
+	color: #9ea485 !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-javascript-number {
+	color: #ff815c !important;
+}
+
+#-webkit-web-inspector #elements-content .webkit-javascript-regexp {
+	color: #fefedb !important;
+}
+
+#-webkit-web-inspector #elements-content ::selection {
+  background: slategray;
+  color: #fff;
+  text-shadow: none;
+}
+
+/*********************************************
+/* Toolbar enhancements
+/* https://gist.github.com/3733364/
+/**********************************************/
+
+#-webkit-web-inspector #toolbar {
+  background: #cdcdcd !important;
+  height: 24px !important;
+}
+#-webkit-web-inspector #main {
+  top: 24px !important;
+}
+
+#-webkit-web-inspector .toolbar-icon {
+    display: none;
+    width: 32px;
+    height: 32px;
+    background-image: url(Images/toolbarIcons.png);
+    vertical-align: top;
+}
+
+#-webkit-web-inspector .toolbar-item.elements:hover:after {
+  content: "elements";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.elements:active:hover:after {
+  display: none;
+}
+#-webkit-web-inspector .toolbar-item.resources:hover:after {
+  content: "resources";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.resources:active:hover:after {
+  display: none;
+}
+#-webkit-web-inspector .toolbar-item.network:hover:after {
+  content: "network";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.network:active:hover:after {
+  display: none;
+}
+#-webkit-web-inspector .toolbar-item.scripts:hover:after {
+  content: "scripts";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.scripts:active:hover:after {
+  display: none;
+}
+#-webkit-web-inspector .toolbar-item.timeline:hover:after {
+  content: "timeline";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.timeline:active:hover:after {
+  display: none;
+}
+#-webkit-web-inspector .toolbar-item.profiles:hover:after {
+  content: "profiles";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.profiles:active:hover:after {
+  display: none;
+}
+#-webkit-web-inspector .toolbar-item.audits:hover:after {
+  content: "audits";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.audits:active:hover:after {
+  display: none;
+}
+#-webkit-web-inspector .toolbar-item.console:hover:after {
+  content: "console";
+  z-index: 9999;
+  position: absolute;
+  display: inline;
+  padding: 0 5px;
+  margin-left: -12px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #555;
+  font-size: 12px;
+  pointer-events: none;
+}
+#-webkit-web-inspector .toolbar-item.console:active:hover:after {
+  display: none;
+}
+/*#-webkit-web-inspector .toolbar-item .toolbar-icon {
+  -webkit-transform: scale(0.72) translateY(-4px);
+}
+#-webkit-web-inspector .toolbar-item .toolbar-label {
+  display: none !important;
+}*/
+#-webkit-web-inspector.inactive .toolbar-item:hover:after {
+  display: none;
+}
+#-webkit-web-inspector.inactive #toolbar {
+  background: #ececec !important;
+}
+#-webkit-web-inspector.compact .toolbar-item:hover:after {
+  display: inline;
+}
+#-webkit-web-inspector.compact .toolbar-icon {
+  -webkit-transform: translateY(1px);
+  margin: 0 5px;
+}
+#-webkit-web-inspector.compact #toolbar {
+  background: #cdcdcd !important;
+}
+#-webkit-web-inspector .toolbar-item.toggled-on:hover:after {
+  display: none;
+}
+#-webkit-web-inspector #toolbar {
+  height: 36px !important;
+}
+
+
+/*********************************************
+/* Additional Refinements
+/* Clayton Farr
+/**********************************************/
+
+#-webkit-web-inspector .parent::before {
+  font-family: 'Arial' !important;
+  color: rgba(255,255,255,.2) !important;  
+  content: '►' !important;
+  padding-right: 5px !important;
+  font-size: 9px !important;
+}
+#-webkit-web-inspector .parent.expanded::before {
+  content: '▼' !important;
+}
+#-webkit-web-inspector .split-view-sidebar-right {
+  box-shadow: -5px 0 50px rgba(0, 0, 0, .5);
+}
