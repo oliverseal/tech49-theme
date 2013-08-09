@@ -2,7 +2,7 @@
 
 Custom UI theme for Sublime Text 2 based on the Oblivion FUI from [GMUNK](http://work.gmunk.com/OBLIVION-GFX)
 
-The structure for this is very closely based on the ![Phoenix Theme](https://github.com/netatoo/phoenix-theme) which is based off of ![Soda Dark](https://github.com/buymeasoda/soda-theme).
+The structure for this is very closely based on the [Phoenix Theme](https://github.com/netatoo/phoenix-theme) which is based off of [Soda Dark](https://github.com/buymeasoda/soda-theme).
 
 ## Samples
 
@@ -22,9 +22,11 @@ Just drop it in your Packages folder.
 - Mac: `~/Library/Application Support/Sublime Text 2/Data/Packages/`
 - Linux: `~/.config/sublime-text-2/Data/Packages/` -- (Might differ by distro.)
 
+OR if you use Sublime Package Manager, just Install Package "Theme - Tech 49"
+
 ## Recommendation
 
-[Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro) font. It looks sweet in with these colors.
+[Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro) font. It looks sweet with these colors.
 
 ### Change your Settings - User 
 
