@@ -15,7 +15,9 @@
 /* Layout
 /**********************************************/
 
-#-webkit-web-inspector #elements-content.source-code {
+#-webkit-web-inspector .source-code,
+#-webkit-web-inspector .text-editor-contents
+ {
   background: #000000;
   font-size: 12px !important;
   color: #accecb;
@@ -59,55 +61,55 @@
 /* HTML
 /**********************************************/
 
-#-webkit-web-inspector #elements-content .webkit-html-comment {
+#-webkit-web-inspector .webkit-html-comment {
   color: #3f5459 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-doctype {
+#-webkit-web-inspector .webkit-html-doctype {
 
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-tag {
+#-webkit-web-inspector .webkit-html-tag {
   color: #ff815c !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-tag-name {
+#-webkit-web-inspector .webkit-html-tag-name {
         
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-attribute {
+#-webkit-web-inspector .webkit-html-attribute {
 
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-attribute-name {
+#-webkit-web-inspector .webkit-html-attribute-name {
   color: #fefedb !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-attribute-value {
+#-webkit-web-inspector .webkit-html-attribute-value {
   color: #9ea485 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-external-link {
+#-webkit-web-inspector .webkit-html-external-link {
 
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-resource-link {
+#-webkit-web-inspector .webkit-html-resource-link {
 
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-text-tag {
+#-webkit-web-inspector .webkit-html-text-tag {
 
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-text-node {
+#-webkit-web-inspector .webkit-html-text-node {
   color: #accecb !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-css-node {
+#-webkit-web-inspector .webkit-html-css-node {
   color: #c2c3c3 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-html-js-node {
+#-webkit-web-inspector .webkit-html-js-node {
   color: #c2c3c3 !important;
 }
 
@@ -115,68 +117,70 @@
 /* CSS
 /**********************************************/
 
-#-webkit-web-inspector #elements-content .webkit-css-comment {
-
+#-webkit-web-inspector .webkit-css-comment {
+  color: #3f5459 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-url {
-
+#-webkit-web-inspector .webkit-css-url {
+  color: #c2c3c3 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-color {
-
+#-webkit-web-inspector .webkit-css-color {
+  color: #ff815c !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-selector {
-
+#-webkit-web-inspector .webkit-css-selector {
+  color: #fefedb !important;
+  font-weight: normal !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-property {
-
+#-webkit-web-inspector .webkit-css-property {
+  color: #c2c3c3 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-number {
-
+#-webkit-web-inspector .webkit-css-number,
+#-webkit-web-inspector .console-formatted-number {
+  color: #ff815c !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-keyword {
-
+#-webkit-web-inspector .webkit-css-keyword {
+  color: #76cddc !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-string {
-
+#-webkit-web-inspector .webkit-css-string {
+  color: #9ea485 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-css-important {
-
+#-webkit-web-inspector .webkit-css-important {
+  color: #fefedb !important;
 }
 
 /**********************************************/
 /* JavaScript
 /**********************************************/
 
-#-webkit-web-inspector #elements-content .webkit-javascript-comment {
+#-webkit-web-inspector .webkit-javascript-comment {
 	color: #3f5459 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-javascript-keyword {
+#-webkit-web-inspector .webkit-javascript-keyword {
   color: #76cddc !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-javascript-ident {
+#-webkit-web-inspector .webkit-javascript-ident {
   color: #fefedb !important;
   font-weight: normal !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-javascript-string {
+#-webkit-web-inspector .webkit-javascript-string {
 	color: #9ea485 !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-javascript-number {
+#-webkit-web-inspector .webkit-javascript-number {
 	color: #ff815c !important;
 }
 
-#-webkit-web-inspector #elements-content .webkit-javascript-regexp {
+#-webkit-web-inspector .webkit-javascript-regexp {
 	color: #fefedb !important;
 }
 
@@ -390,4 +394,59 @@
 }
 #-webkit-web-inspector .split-view-sidebar-right {
   box-shadow: -5px 0 50px rgba(0, 0, 0, .5);
+}
+
+
+/*********************************************
+/* Error messages
+/* Oliver Wilkerson
+/*********************************************/
+#-webkit-web-inspector .webkit-html-message-bubble {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-border-radius: 3px !important; 
+  border-radius: 3px !important; 
+}
+
+#-webkit-web-inspector .webkit-html-error-message {
+  background: #fc674e !important;
+  border-color: #fc674e !important;
+  color: #000000 !important;
+}
+
+#-webkit-web-inspector .webkit-html-error-message .webkit-html-message-line {
+  margin-top: 2px !important;
+}
+
+#-webkit-web-inspector .webkit-html-error-message .webkit-html-message-line .error-icon-small {
+  background-image: none !important;
+}
+
+/*********************************************
+/* Console messages
+/* Oliver Wilkerson
+/*********************************************/
+#-webkit-web-inspector #console-messages {
+  background: #000000 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-message {
+  border-color: #222222 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-message.console-error-level {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-border-radius: 3px !important; 
+  border-radius: 3px !important; 
+  background: #fc674e !important;
+  border-color: #fc674e !important;
+  padding: 4px 0px !important;
+  margin: 4px 0px !important;
+}
+
+#-webkit-web-inspector #console-messages .console-message.console-error-level .console-message-text {
+  color: #000000 !important;
+  background-color: transparent !important;
+  font-weight: bold !important;
 }
