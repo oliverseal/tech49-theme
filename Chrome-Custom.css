@@ -8,6 +8,7 @@
 /* http://joebergantine.com/werkstatt/seestyle
 /* Tweaked by Matthew Lein
 /* Further tweaked by Clayton Farr
+/* Tech-49 conversion by Oliver Wilkerson 2013
 /*
 /**********************************************/
 
@@ -160,7 +161,7 @@
 /**********************************************/
 
 #-webkit-web-inspector .webkit-javascript-comment {
-	color: #3f5459 !important;
+  color: #3f5459 !important;
 }
 
 #-webkit-web-inspector .webkit-javascript-keyword {
@@ -173,15 +174,15 @@
 }
 
 #-webkit-web-inspector .webkit-javascript-string {
-	color: #9ea485 !important;
+  color: #9ea485 !important;
 }
 
 #-webkit-web-inspector .webkit-javascript-number {
-	color: #ff815c !important;
+  color: #ff815c !important;
 }
 
 #-webkit-web-inspector .webkit-javascript-regexp {
-	color: #fefedb !important;
+  color: #fefedb !important;
 }
 
 #-webkit-web-inspector #elements-content ::selection {
@@ -432,6 +433,22 @@
 
 #-webkit-web-inspector #console-messages .console-message {
   border-color: #222222 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-formatted-object {
+  color: #accecb !important;
+}
+
+#-webkit-web-inspector #console-messages .console-formatted-object .name {
+  color: #76cddc !important;
+}
+
+#-webkit-web-inspector #console-messages .console-formatted-string {
+  color: #9ea485 !important;
+}
+
+#-webkit-web-inspector #console-messages .console-user-command > .console-message-text {
+  color: #c2c3c3 !important;
 }
 
 #-webkit-web-inspector #console-messages .console-message.console-error-level {
