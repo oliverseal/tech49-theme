@@ -10,10 +10,11 @@ v1.1 Basic support for Sublime Text 3 + extras
 - Added alpha to `selection` to make selected comments easier to read.
 - Added alpha to `lineHighlight` to make highlighted lines more
   readable.
+- Added support for diff syntax and JSON strings in theme colors.
 - Updated Chrome-Custom.css, but still not quite ready for primetime.
   Use at your own risk (Object notation, for example, isn't readable)
 - Added a `base.html` file to aid in seeing the Tech49 colors.
-- Added a `Tech49.terminal` for OS X terminal that is based on the gnome terminal.
+- Added a `Tech49.terminal` for OS X terminal that is based on the gnome terminal ANSI.
 
 ## Samples
 
