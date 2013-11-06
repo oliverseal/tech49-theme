@@ -1,10 +1,20 @@
 # Tech49 Theme
 
-Custom UI theme for Sublime Text based on the Oblivion FUI from [GMUNK](http://work.gmunk.com/OBLIVION-GFX)
+Custom UI theme for Sublime Text based on the Oblivion FUI from 
+[GMUNK](http://work.gmunk.com/OBLIVION-GFX)
 
-The structure for this is very closely based on the [Phoenix Theme](https://github.com/netatoo/phoenix-theme) which is based off of [Soda Dark](https://github.com/buymeasoda/soda-theme).
+The structure for this is very closely based on the 
+[Phoenix Theme](https://github.com/netatoo/phoenix-theme) which is based off of 
+[Soda Dark](https://github.com/buymeasoda/soda-theme).
 
 ## Updates
+v1.2.0 Added support for Markdown Extended
+- [Markdown Extended](https://sublime.wbond.net/packages/Markdown%20Extended) is 
+  a great plugin that helps in the readability and composition of Markdown in 
+  Sublime Text.
+- *Known Issue*: Markdown Extended doesn't highlight image punctuation correctly
+  in its current version. I've submitted a pull request, so this might change soon.
+
 v1.1.1 Chrome stylesheet updates
 
 - Increased the readability of the toolbar (matched Sublime Text tab style).
@@ -24,14 +34,13 @@ v1.1.0 Basic support for Sublime Text 3 + extras
 
 ## Samples
 
-![Markdown](http://oliverseal.github.io/tech49-theme/screenshots/markdown.png)
+![Markdown Extended](http://oliverseal.github.io/tech49-theme/screenshots/markdown.png)
 
 ![CoffeeScript](http://oliverseal.github.io/tech49-theme/screenshots/coffeescript.png)
 
 ![Less CSS](http://oliverseal.github.io/tech49-theme/screenshots/less.png)
 
 ![HTML](http://oliverseal.github.io/tech49-theme/screenshots/html.png)
-
 
 ## Installation
 
