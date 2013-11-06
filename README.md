@@ -5,7 +5,13 @@ Custom UI theme for Sublime Text based on the Oblivion FUI from [GMUNK](http://w
 The structure for this is very closely based on the [Phoenix Theme](https://github.com/netatoo/phoenix-theme) which is based off of [Soda Dark](https://github.com/buymeasoda/soda-theme).
 
 ## Updates
-v1.1 Basic support for Sublime Text 3 + extras
+v1.1.1 Chrome stylesheet updates
+
+- Increased the readability of the toolbar (matched Sublime Text tab style).
+- Object notation and comments should all be clearly readable in console messages 
+  and source code.
+
+v1.1.0 Basic support for Sublime Text 3 + extras
 
 - Added alpha to `selection` to make selected comments easier to read.
 - Added alpha to `lineHighlight` to make highlighted lines more
@@ -65,14 +71,20 @@ On Linux or Windows:
 ## Extras
 
 ### Chrome-Custom.css
-_Experimental_
-This styles Chrome's dev-tools to match the Tech 49 theme. Chrome updates the dev-tools
+_Alpha_
+This styles source code in Chrome's dev-tools to match the Tech 49 theme. Chrome updates the dev-tools
 very frequently so this may potentially get out of date.
 Replace the 
-- `/Default/User Stylesheets/Custom.css` with this file to try it out.
+- Linux users can try this with `ln -sf /path/to/tech49-theme/Chrome-Custom.css /home/$USER/.config/google-chrome/Default/User\ StyleSheets/Custom.css`
+- OR `ln -sf /path/to/tech49-theme/Chrome-Custom.css /home/$USER/.config/chromium/Default/User\ StyleSheets/Custom.css`
+
+
 
 #### Known Issues
-- Object notation is "black-on-black" right now. Fixes will come soon.
+- Not compatible with CodeMirror editor in Chrome yet. If you have
+  this option turned on, only the Elements tab and the Console tab
+  will have the Tech 49 styles.
+- Issues on readability are welcome on this stylesheet.
 
 ### Terminals
 _Stable_

@@ -196,10 +196,6 @@
 /* https://gist.github.com/3733364/
 /**********************************************/
 
-#-webkit-web-inspector #toolbar {
-  background: #cdcdcd !important;
-  height: 24px !important;
-}
 #-webkit-web-inspector #main {
   top: 24px !important;
 }
@@ -358,7 +354,8 @@
   display: none;
 }
 #-webkit-web-inspector.inactive #toolbar {
-  background: #ececec !important;
+  background-image: none !important;
+  background-color: #000000 !important;
 }
 #-webkit-web-inspector.compact .toolbar-item:hover:after {
   display: inline;
@@ -368,13 +365,51 @@
   margin: 0 5px;
 }
 #-webkit-web-inspector.compact #toolbar {
-  background: #cdcdcd !important;
+  background-image: none !important;
+  background-color: #000000 !important;
 }
 #-webkit-web-inspector .toolbar-item.toggled-on:hover:after {
   display: none;
 }
+#-webkit-web-inspector .toolbar-item.toggleable {
+  border-top: 1px solid #5997a3 !important;
+  border-bottom: 1px solid #5997a3 !important;
+  border-width: 1px !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  -webkit-border-image: none !important;
+}
+
+#-webkit-web-inspector .toolbar-item.toggleable .toolbar-label {
+  color: #5997a3 !important;
+  line-height: 20px !important;
+  padding: 0px !important;
+  border: 0px !important;
+}
+
+#-webkit-web-inspector .toolbar-item.toggleable.toggled-on {
+  border-top: 1px solid #fcffc7 !important;
+  border-bottom: 1px solid #fcffc7 !important;
+  border-width: 1px !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  -webkit-border-image: none !important;
+}
+
+
+#-webkit-web-inspector .toolbar-item.toggleable.toggled-on .toolbar-label {
+  color: #fcffc7 !important;
+  line-height: 20px !important;
+}
+
 #-webkit-web-inspector #toolbar {
   height: 36px !important;
+}
+
+#-webkit-web-inspector #toolbar, #-webkit-web-inspector.inactive #toolbar {
+  background-image: none !important;
+  background-color: #000000 !important;
+  height: 24px !important;
 }
 
 
@@ -447,6 +482,11 @@
   color: #9ea485 !important;
 }
 
+#-webkit-web-inspector #console-messages .console-formatted-null,
+#-webkit-web-inspector #console-messages .console-formatted-undefined {
+  color: #ff815c !important;
+}
+
 #-webkit-web-inspector #console-messages .console-user-command > .console-message-text {
   color: #c2c3c3 !important;
 }
@@ -463,7 +503,15 @@
 }
 
 #-webkit-web-inspector #console-messages .console-message.console-error-level .console-message-text {
-  color: #000000 !important;
+  color: #263f45 !important;
   background-color: transparent !important;
   font-weight: bold !important;
+}
+
+#-webkit-web-inspector .console-object-preview {
+  color: #fcffc7 !important;
+}
+
+#-webkit-web-inspector .properties-tree li.parent::before {
+  -webkit-filter: invert(100%) !important;
 }
