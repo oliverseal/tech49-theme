@@ -103,5 +103,6 @@ _Stable_
 
 ### Highlight.js
 _Stable_
+`tech49.css` is built for highlightjs. It's tested and works for most languages (though it could use some improvement)
 `markdown-code.css` is built for [Markdown Here](http://markdown-here.com/), but can 
 be adapted to work with [highlight.js](http://softwaremaniacs.org/soft/highlight/en/)

@@ -1,0 +1,251 @@
+/*
+* Tech49 style - created by Oliver Wilkerson based on GMunk Oblivion FUI
+* Use this with Markdown Here (http://markdown-here.com/) or for your site if you use
+* `highlight.js` (http://softwaremaniacs.org/soft/highlight/en/)
+*/
+
+pre code {
+  display: block; padding: 0.5em;
+  background: #000000;
+}
+
+pre .hljs-tag,
+pre .hljs-tag .hljs-title,
+pre .hljs-keyword,
+pre .hljs-literal,
+pre .hljs-change,
+pre .lang-winutils,
+pre .hljs-flow,
+pre .lang-lisp .hljs-title,
+pre .lang-clojure .hljs-built_in,
+pre .lang-nginx .hljs-title,
+pre .lang-tex .hljs-special {
+  color: #ff815c;
+}
+
+pre code {
+  color: #accecb;
+}
+
+pre code .hljs-constant {
+    color: #ff815c;
+}
+
+pre .hljs-class .hljs-title {
+    color: #d9fefd;
+}
+
+pre .hljs-attribute,
+pre .hljs-symbol,
+pre .hljs-symbol .hljs-string,
+pre .hljs-value,
+pre .hljs-regexp {
+    color: #fefedb;
+}
+
+pre .hljs-tag .hljs-value,
+pre .hljs-string,
+pre .lang-ruby .hljs-subst,
+pre .hljs-title,
+pre .lang-haskell .hljs-type,
+pre .hljs-preprocessor,
+pre .lang-ruby .hljs-class .hljs-parent,
+pre .hljs-built_in,
+pre .lang-sql .hljs-aggregate,
+pre .lang-django .hljs-template_tag,
+pre .lang-django .hljs-variable,
+pre .lang-smalltalk .hljs-class,
+pre .lang-javadoc,
+pre .lang-django .hljs-filter .hljs-argument,
+pre .lang-smalltalk .hljs-localvars,
+pre .lang-smalltalk .hljs-array,
+pre .hljs-attr_selector,
+pre .hljs-pseudo,
+pre .hljs-addition,
+pre .hljs-stream,
+pre .hljs-envvar,
+pre .lang-apache .hljs-tag,
+pre .lang-apache .hljs-cbracket,
+pre .lang-tex .hljs-command,
+pre .hljs-input_number {
+  color: #9ea485;
+}
+
+pre .hljs-number {
+  color: #ff815c;
+}
+
+/* css */
+pre .lang-less .hljs-comment,
+pre .lang-css .hljs-comment {
+  color: #3f5459;
+}
+
+pre .lang-less .hljs-url,
+pre .lang-css .hljs-url {
+  color: #c2c3c3;
+}
+
+pre .lang-less .hljs-color,
+pre .lang-css .hljs-color {
+  color: #ff815c;
+}
+
+pre .lang-less .hljs-selector,
+pre .lang-css .hljs-selector {
+  color: #fefedb;
+  font-weight: normal;
+}
+
+pre .lang-less .hljs-property,
+pre .lang-css .hljs-property {
+  color: #c2c3c3;
+}
+
+pre .lang-less .hljs-number,
+pre .lang-css .hljs-number {
+  color: #ff815c;
+}
+
+pre .lang-less .hljs-keyword,
+pre .lang-css .hljs-keyword {
+  color: #76cddc;
+}
+
+pre .lang-less .hljs-string,
+pre .lang-css .hljs-string {
+  color: #9ea485;
+}
+
+pre .lang-less .hljs-important,
+pre .lang-css .hljs-important {
+  color: #fefedb;
+}
+
+/* JS */
+pre .lang-js .hljs-comment {
+  color: #3f5459;
+}
+
+pre .lang-js .hljs-keyword {
+  color: #76cddc;
+}
+
+pre .lang-js .hljs-ident {
+  color: #fefedb;
+  font-weight: normal;
+}
+
+pre .lang-js .hljs-string {
+  color: #9ea485;
+}
+
+pre .lang-js .hljs-number {
+  color: #ff815c;
+}
+
+pre .lang-js .hljs-regexp {
+  color: #fefedb;
+}
+
+
+/**********************************************/
+/* HTML
+/**********************************************/
+
+pre .lang-html .hljs-comment {
+  color: #3f5459;
+}
+
+pre .lang-html .hljs-doctype {
+
+}
+
+pre .lang-html .hljs-tag {
+  color: #ff815c;
+}
+
+pre .lang-html .hljs-tag-name {
+        
+}
+
+pre .lang-html .hljs-attribute {
+
+}
+
+pre .lang-html .hljs-attribute-name {
+  color: #fefedb;
+}
+
+pre .lang-html .hljs-attribute-value {
+  color: #9ea485;
+}
+
+pre .lang-html .hljs-external-link {
+
+}
+
+pre .lang-html .hljs-resource-link {
+
+}
+
+pre .lang-html .hljs-text-tag {
+
+}
+
+pre .lang-html .hljs-text-node {
+  color: #accecb;
+}
+
+pre .lang-html .hljs-css-node {
+  color: #c2c3c3;
+}
+
+pre .lang-html .hljs-js-node {
+  color: #c2c3c3;
+}
+
+
+
+pre .hljs-comment,
+pre .lang-java .hljs-annotation,
+pre .lang-python .hljs-decorator,
+pre .template_comment,
+pre .hljs-pi,
+pre .hljs-doctype,
+pre .hljs-deletion,
+pre .hljs-shebang,
+pre .lang-apache .hljs-sqbracket,
+pre .lang-tex .hljs-formula {
+  color: #3f5459;
+}
+
+pre .hljs-keyword,
+pre .hljs-literal,
+pre .lang-css .hljs-id,
+pre .lang-phpdoc,
+pre .hljs-title,
+pre .lang-haskell .hljs-type,
+pre .lang-vbscript .hljs-built_in,
+pre .lang-sql .hljs-aggregate,
+pre .lang-rsl .hljs-built_in,
+pre .lang-smalltalk .hljs-class,
+pre .lang-diff .hljs-header,
+pre .hljs-chunk,
+pre .lang-winutils,
+pre .lang-bash .hljs-variable,
+pre .lang-apache .hljs-tag,
+pre .lang-tex .hljs-special,
+pre .hljs-request,
+pre .hljs-status {
+  color: #78cfde;
+  font-weight: bold;
+}
+
+pre .lang-coffeescript .hljs-javascript,
+pre .lang-xml .hljs-css,
+pre .lang-xml .hljs-javascript,
+pre .lang-xml .hljs-vbscript,
+pre .lang-tex .hljs-formula {
+  opacity: 0.5;
+}
