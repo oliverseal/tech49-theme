@@ -151,3 +151,9 @@ hi clear SignifyLineDelete
 hi SignifyLineAdd ctermfg=NONE ctermbg=233 cterm=NONE guibg=NONE guifg=#c4fefd gui=NONE
 hi SignifyLineChange ctermfg=NONE ctermbg=233 cterm=NONE guibg=NONE guifg=#fcffc7 gui=NONE
 hi SignifyLineDelete ctermfg=NONE ctermbg=233 cterm=NONE guibg=NONE guifg=#ff815a gui=NONE
+
+hi Pmenu guibg=#fcfcc7 guifg=#000000 gui=NONE
+hi PmenuSel guibg=#c4fefd guifg=#000000 gui=NONE
+hi PmenuSBar guibg=#d1dbaf guifg=NONE gui=NONE
+hi PmenuThumb guibg=#fefedb guifg=#000000 gui=NONE
+
