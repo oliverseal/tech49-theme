@@ -20,8 +20,8 @@ hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#323c3b guibg=#323c3b gui=NO
 hi MatchParen ctermfg=187 ctermbg=NONE cterm=underline guifg=#d1dbaf guibg=NONE gui=underline
 hi StatusLine ctermfg=152 ctermbg=59 cterm=bold guifg=#accecb guibg=#000000 gui=bold
 hi StatusLineNC ctermfg=152 ctermbg=59 cterm=NONE guifg=#accecb guibg=#000000 gui=NONE
-hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg=#2d393e gui=NONE
+hi Pmenu ctermfg=NONE ctermbg=59 cterm=NONE guifg=#000000 guibg=#d1dbaf gui=NONE
+hi PmenuSel ctermfg=0 ctermbg=152 cterm=NONE guifg=#accecb guibg=#2d393e gui=NONE
 hi IncSearch ctermfg=0 ctermbg=144 cterm=NONE guifg=#000000 guibg=#9ea485 gui=NONE
 hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=144 ctermbg=NONE cterm=NONE guifg=#9ea485 guibg=NONE gui=NONE
@@ -35,7 +35,7 @@ hi Comment ctermfg=59 ctermbg=NONE cterm=NONE guifg=#3f5459 guibg=NONE gui=NONE
 hi Conditional ctermfg=187 ctermbg=NONE cterm=NONE guifg=#d1dbaf guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Define ctermfg=187 ctermbg=NONE cterm=NONE guifg=#d1dbaf guibg=NONE gui=NONE
-hi DiffAdd ctermfg=152 ctermbg=64 cterm=bold guifg=#accecb guibg=#3e7b05 gui=bold
+hi DiffAdd ctermfg=152 ctermbg=64 cterm=bold guifg=#accecb guibg=#9ea485 gui=bold
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#830000 guibg=NONE gui=NONE
 hi DiffChange ctermfg=152 ctermbg=17 cterm=NONE guifg=#accecb guibg=#102544 gui=NONE
 hi DiffText ctermfg=152 ctermbg=24 cterm=bold guifg=#accecb guibg=#204a87 gui=bold
@@ -151,3 +151,4 @@ hi clear SignifyLineDelete
 hi SignifyLineAdd ctermfg=NONE ctermbg=233 cterm=NONE guibg=NONE guifg=#c4fefd gui=NONE
 hi SignifyLineChange ctermfg=NONE ctermbg=233 cterm=NONE guibg=NONE guifg=#fcffc7 gui=NONE
 hi SignifyLineDelete ctermfg=NONE ctermbg=233 cterm=NONE guibg=NONE guifg=#ff815a gui=NONE
+
