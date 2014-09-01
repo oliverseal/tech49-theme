@@ -591,6 +591,12 @@
         "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
         "layer0.opacity": 1.0
     },
+    {
+        "class": "icon_folder",
+        "content_margin": [0, 0],
+        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
+        "layer0.opacity": 0.4
+    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -611,6 +617,12 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
         "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
+        "layer0.opacity": 0.4
     },
 
 //
