@@ -572,58 +572,75 @@
 // SIDEBAR - GENERAL FILE ICONS
 //
 
+    // Sidebar folder closed
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Tech49/icons/folder.png",
+        "layer0.opacity": 1,
+        "layer0.inner_margin": 0,
+        "content_margin": [8,8] // hide for now until we get better icons
+    },
+    // Sidebar folder opened
+    {
+        "class": "icon_folder",
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
+        "layer0.texture": "Theme - Tech49/icons/folder_open@2x.png",
+        "layer0.inner_margin": 0,
+        "content_margin": [8,8] // hide for now until we get better icons
+    },
+
     // Sidebar group closed
-    {
-        "class": "disclosure_button_control",
-        "content_margin": [8, 8],
-        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
-        "layer0.opacity": 0.4
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
-        "layer0.opacity": 0.8
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "icon_folder",
-        "content_margin": [0, 0],
-        "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
-        "layer0.opacity": 0.4
-    },
-    // Sidebar group open
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
-        "layer0.opacity": 0.4
-    },
+    // {
+    //     "class": "disclosure_button_control",
+    //     "content_margin": [8, 8],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
+    //     "layer0.opacity": 0.4
+    // },
+    // {
+    //     "class": "disclosure_button_control",
+    //     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
+    //     "layer0.opacity": 0.8
+    // },
+    // {
+    //     "class": "disclosure_button_control",
+    //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
+    //     "layer0.opacity": 1.0
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "content_margin": [0, 0],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-closed.png",
+    //     "layer0.opacity": 0.4
+    // },
+    // // Sidebar group open
+    // {
+    //     "class": "disclosure_button_control",
+    //     "attributes": ["expanded"],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
+    //     "layer0.opacity": 1.0
+    // },
+    // {
+    //     "class": "disclosure_button_control",
+    //     "attributes": ["expanded"],
+    //     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
+    //     "layer0.opacity": 1.0
+    // },
+    // {
+    //     "class": "disclosure_button_control",
+    //     "attributes": ["expanded"],
+    //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
+    //     "layer0.opacity": 1.0
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    //     "layer0.texture": "Theme - Tech49/Tech49/group-open.png",
+    //     "layer0.opacity": 0.4
+    // },
 
 //
 // STANDARD TEXT BUTTONS
