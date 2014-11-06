@@ -8,6 +8,9 @@ The structure for this is very closely based on the
 [Soda Dark](https://github.com/buymeasoda/soda-theme).
 
 ## Updates
+v1.3.0 Started icons.
+- Just the basics. Mostly to get rid of that gross gap.
+
 v1.2.0 Added support for Markdown Extended
 - [Markdown Extended](https://sublime.wbond.net/packages/Markdown%20Extended) is 
   a great plugin that helps in the readability and composition of Markdown in 
