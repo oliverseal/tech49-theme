@@ -139,10 +139,21 @@ hi pythonRailsRenderMethod ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78cfde gui
 hi pythonRailsMethod ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78cfde guibg=NONE gui=italic
 
 
-hi DiffAdd guifg=black guibg=#c4fefd gui=NONE
-hi DiffChange guifg=black guibg=#fcffc7 gui=NONE
-hi DiffDelete guifg=black guibg=#ff815a gui=NONE
-hi DiffText guifg=black guibg=#fcffc7 gui=NONE
+hi DiffAdd ctermfg=0 ctermbg=10 cterm=bold
+hi DiffDelete ctermfg=0 ctermbg=9 cterm=NONE
+hi DiffChange ctermfg=0 ctermbg=11 cterm=NONE
+hi DiffText ctermfg=0 ctermbg=NONE cterm=bold
+hi GitGutterAdd ctermfg=0 ctermbg=10 cterm=bold
+hi GitGutterDelete ctermfg=0 ctermbg=9 cterm=NONE
+hi GitGutterChange ctermfg=0 ctermbg=11 cterm=NONE
+" hi DiffAdd ctermfg=152 ctermbg=64 cterm=bold guifg=#accecb guibg=#9ea485 gui=bold
+" hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#830000 guibg=NONE gui=NONE
+" hi DiffChange ctermfg=152 ctermbg=17 cterm=NONE guifg=#accecb guibg=#102544 gui=NONE
+" hi DiffText ctermfg=152 ctermbg=24 cterm=bold guifg=#accecb guibg=#204a87 gui=bold
+" hi DiffAdd guifg=black guibg=#c4fefd gui=NONE
+" hi DiffChange guifg=black guibg=#fcffc7 gui=NONE
+" hi DiffDelete guifg=black guibg=#ff815a gui=NONE
+" hi DiffText guifg=black guibg=#fcffc7 gui=NONE
 
 hi clear SignifyLineAdd
 hi clear SignifyLineChange
@@ -157,3 +168,9 @@ hi PmenuSel guibg=#c4fefd guifg=#000000 gui=NONE
 hi PmenuSBar guibg=#d1dbaf guifg=NONE gui=NONE
 hi PmenuThumb guibg=#fefedb guifg=#000000 gui=NONE
 
+" hi CocFloating guibg=#fcfcc7 guifg=#111514 gui=NONE
+hi CocFloating ctermfg=NONE ctermbg=59 cterm=NONE guifg=#000000 guibg=#d1dbaf gui=NONE
+hi CocErrorFloat ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8a291b guibg=NONE gui=NONE
+hi CocWarningFloat ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8a291b guibg=NONE gui=NONE
+hi CocInfoFloat ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi CocHintFloat ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8a291b guibg=NONE gui=NONE

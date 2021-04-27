@@ -8,6 +8,12 @@ The structure for this is very closely based on the
 [Soda Dark](https://github.com/buymeasoda/soda-theme).
 
 ## Updates
+v1.4.1
+- Add in some vim gutter and Coc support.
+
+v1.4.0 Greyscale icons.
+- Ages ago a PR came in for greyscale icons. Finally merged it in.
+
 v1.3.0 Started icons.
 - Just the basics. Mostly to get rid of that gross gap.
 

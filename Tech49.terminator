@@ -1,0 +1,13 @@
+[[default]]
+    scrollbar_position = hidden
+    palette = "#263f45:#8a291b:#79815d:#c5cf8d:#9dc3bf:#7f548c:#60c6d8:#d1fefc:#396269:#fc674e:#b3bd93:#fcffc7:#c4fefd:#ad7fa8:#77c9d9:#f6f7e2"
+    background_image = None
+    background_darkness = 0.78
+    urgent_bell = True
+    background_type = transparent
+    use_system_font = False
+    foreground_color = "#9dc3bf"
+    show_titlebar = False
+    cursor_shape = ibeam
+    font = Ubuntu Mono 11
+    scrollback_infinite = True
