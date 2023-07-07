@@ -1,5 +1,4 @@
 " Vim color file
-" Converted from Textmate theme Tech49 using Coloration v0.3.3 (http://github.com/sickill/coloration)
 
 set background=dark
 highlight clear
@@ -9,6 +8,8 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "Tech49"
+
+hi CocMenuSel ctermfg=0 ctermbg=7 guibg=#ffffff guifg=NONE gui=NONE
 
 hi Cursor ctermfg=0 ctermbg=153 cterm=NONE guifg=#000000 guibg=#a1e4f2 gui=NONE
 hi Visual ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg=#2d393e gui=NONE
@@ -39,8 +40,8 @@ hi DiffAdd ctermfg=152 ctermbg=64 cterm=bold guifg=#accecb guibg=#9ea485 gui=bol
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#830000 guibg=NONE gui=NONE
 hi DiffChange ctermfg=152 ctermbg=17 cterm=NONE guifg=#accecb guibg=#102544 gui=NONE
 hi DiffText ctermfg=152 ctermbg=24 cterm=bold guifg=#accecb guibg=#204a87 gui=bold
-hi ErrorMsg ctermfg=88 ctermbg=209 cterm=NONE guifg=#8a291b guibg=#ff815a gui=NONE
-hi WarningMsg ctermfg=88 ctermbg=209 cterm=NONE guifg=#8a291b guibg=#ff815a gui=NONE
+hi ErrorMsg ctermfg=88 ctermbg=209 cterm=NONE guifg=#8a291b guibg=#000000 gui=NONE
+hi WarningMsg ctermfg=88 ctermbg=209 cterm=NONE guifg=#8a291b guibg=#000000 gui=NONE
 hi Float ctermfg=209 ctermbg=NONE cterm=NONE guifg=#ff815c guibg=NONE gui=NONE
 hi Function ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78cfde guibg=NONE gui=italic
 hi Identifier ctermfg=187 ctermbg=NONE cterm=NONE guifg=#d1dbaf guibg=NONE gui=NONE
@@ -168,9 +169,14 @@ hi PmenuSel guibg=#c4fefd guifg=#000000 gui=NONE
 hi PmenuSBar guibg=#d1dbaf guifg=NONE gui=NONE
 hi PmenuThumb guibg=#fefedb guifg=#000000 gui=NONE
 
+
 " hi CocFloating guibg=#fcfcc7 guifg=#111514 gui=NONE
-hi CocFloating ctermfg=NONE ctermbg=59 cterm=NONE guifg=#000000 guibg=#d1dbaf gui=NONE
-hi CocErrorFloat ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8a291b guibg=NONE gui=NONE
-hi CocWarningFloat ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8a291b guibg=NONE gui=NONE
-hi CocInfoFloat ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi CocHintFloat ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8a291b guibg=NONE gui=NONE
+hi CocFloating ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffffff guibg=#000000 gui=NONE
+hi CocErrorFloat ctermfg=1 ctermbg=NONE cterm=NONE guifg=#fa6e5a guibg=#000000 gui=NONE
+hi CocWarningFloat ctermfg=11 ctermbg=NONE cterm=NONE guifg=#fa6e5a guibg=#000000 gui=NONE
+hi CocInfoFloat ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#000000 gui=NONE
+hi CocHintFloat ctermfg=12 ctermbg=NONE cterm=NONE guifg=#fa6e5a guibg=#000000 gui=NONE
+hi CocErrorVirtualText ctermfg=1 ctermbg=NONE cterm=NONE guifg=#fa6e5a guibg=#000000 gui=NONE
+hi CocWarningVirtualText ctermfg=11 ctermbg=NONE cterm=NONE guifg=#fa6e5a guibg=#000000 gui=NONE
+hi FgCocWarningFloatBgCocFloating ctermfg=1 ctermbg=NONE cterm=NONE guifg=#fa6e5a guibg=#000000 gui=NONE
+hi DiagnosticError ctermfg=1 ctermbg=NONE cterm=NONE guifg=#fa6e5a guibg=#000000 gui=NONE
